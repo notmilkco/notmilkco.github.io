@@ -1,2 +1,11 @@
 # parkcitymedia.github.io
-- github site
+`markdown test`
+* i tal *
+** bo l **
+***b o th ***
+```css
+body {
+  test-color: #457638;
+  }
+```
+  
