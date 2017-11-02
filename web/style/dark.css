@@ -1,5 +1,6 @@
 /* DEFAULT parkcitymedit.git style */
 body {
   background-color:#454545;
-  background-image:url("http://parkcitymedia.github.io/web/assets/grey-noise.png");
+ /* background-image:url("http://parkcitymedia.github.io/web/assets/grey-noise.png"); */
+  background-image: url("https://github.com/parkcitymedia/parkcitymedia.github.io/blob/master/web/assets/grey-noise.png");
 }
