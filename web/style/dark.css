@@ -2,7 +2,8 @@ body {
  background-color:#454545; 
 }
 h1 {
- color:;
+ font-family: Alagreya Sans Light;
+ color:#ffffff;
  background-color:rgba(0, 0, 0, 0.3);
 }
 p {
