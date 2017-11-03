@@ -1,6 +1,6 @@
 /* DEFAULT parkcitymedit.git style */
 html{
- background: url('parkcitymedia.github.io/web/assets/grey-noise.png') no-repeat center center fixed; 
+ background: url(.. web/assets/grey-noise.png) no-repeat center center fixed; 
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
