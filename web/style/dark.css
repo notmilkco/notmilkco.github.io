@@ -4,7 +4,8 @@ body {
 }
 h1 {
  color:#ffffff;
- font-family:'URW Gothic Book', 'Alegreya Sans SC', sans-serif;
+ font-family:'Alegreya Sans SC', sans-serif;
+ font-weight:light;
 }
 
 p {
