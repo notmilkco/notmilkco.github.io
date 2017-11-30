@@ -5,7 +5,7 @@ body {
 h1 {
  color:#ffffff;
  font-family:'Alegreya Sans SC', sans-serif;
- font-weight:light;
+ font-weight:thin;
 }
 
 p {
@@ -13,5 +13,17 @@ p {
  font-family:'URW Gothic Book', 'Alegreya Sans SC', sans-serif;
 }
 a {
+ border-style:solid;
+ border-color:#ffffff;
+ padding: 7px;
  color:#ffffff;
+ background-color:rgba(255, 255, 255, 0)
+ -webkit-transition: background-color 0.5s;
+ transition: background-color 0.5s;
+ -webkit-transition: color 0.5s;
+ transition: color 0.5s;
+ }
+a:hover {
+ background-color:rgba(255, 255, 255, 255)
+ color: rgba(255, 255, 255, 0)
 }
