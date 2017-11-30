@@ -5,7 +5,6 @@ body {
 h1 {
  color:#ffffff;
  font-family:'Alegreya Sans SC', sans-serif;
- font-weight:thin;
 }
 
 p {
@@ -26,3 +25,5 @@ a:hover {
  background-color:rgba(255, 255, 255, 255)
  color: rgba(255, 255, 255, 0)
 }
+/* queries */
+@media 
