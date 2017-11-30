@@ -10,18 +10,17 @@ h1 {
 
 p {
  color:#ffffff;
- font-family:'URW Gothic Book', 'Alegreya Sans SC', sans-serif;
+ font-family:'Alegreya Sans SC', sans-serif;
 }
 a {
  border-style:solid;
+ border width
  border-color:#ffffff;
  padding: 7px;
  color:#ffffff;
  background-color:rgba(255, 255, 255, 0)
- -webkit-transition: background-color 0.5s;
- transition: background-color 0.5s;
- -webkit-transition: color 0.5s;
- transition: color 0.5s;
+ -webkit-transition: 0.5s;
+ transition: 0.5s;
  }
 a:hover {
  background-color:rgba(255, 255, 255, 255)
