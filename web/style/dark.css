@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC'); /* Alegreya Sans SC */
-
 body {
+    background-color:rgba(255, 255, 255, 0);
 }
-h1 {
+h1, h2, h3, h4 {
  color:#ffffff;
  font-family:'Alegreya Sans SC', sans-serif;
 }
-
+h5, h6 {
+    color:#999999;
+    font-family:'Alegreya Sans SC', sans-serif;
+}
 p {
  color:#ffffff;
  font-family:'Alegreya Sans SC', sans-serif;
+ background-color:rgba(255, 255, 255, 0);
 }
 a {
  border-style:solid;
@@ -17,13 +21,29 @@ a {
  border-color:#ffffff;
  padding: 7px;
  color:#ffffff;
- background-color:rgba(255, 255, 255, 0)
+ background-color:rgba(255, 255, 255, 0);
  -webkit-transition: 0.5s;
  transition: 0.5s;
  }
 a:hover {
- background-color:rgba(255, 255, 255, 255)
- color: rgba(255, 255, 255, 0)
+ background-color:rgba(255, 255, 255, 255);
+ color: rgba(255, 255, 255, 0);
+}
+/* classes */
+.divtop {
+    text-align:center;
+    position:fixed;
+    align-content:top;
+    align-items:top;
+}
+/* identifiers */
+#block {
+    border-style:solid;
+    border-width:2px;
+    border-color:#ffffff;
+    border-radius: 0px 25px 0px 0px;
+    background-color:;
 }
 /* queries */
-@media 
+@media {
+}
