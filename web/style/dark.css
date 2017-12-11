@@ -2,11 +2,11 @@
 body {
     background-color:rgba(255, 255, 255, 0);
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
  color:#ffffff;
  font-family:'Alegreya Sans SC', sans-serif;
 }
-h5, h6 {
+h4, h5, h6 {
     color:#999999;
     font-family:'Alegreya Sans SC', sans-serif;
 }
@@ -17,7 +17,7 @@ p {
 }
 a {
  border-style:solid;
- border width
+ border-width:1;
  border-color:#ffffff;
  padding: 7px;
  color:#ffffff;
@@ -27,7 +27,7 @@ a {
  }
 a:hover {
  background-color:rgba(255, 255, 255, 255);
- color: rgba(255, 255, 255, 0);
+ color: rgb(51, 51, 51);
 }
 /* classes */
 .divtop {
@@ -41,8 +41,7 @@ a:hover {
     border-style:solid;
     border-width:2px;
     border-color:#ffffff;
-    border-radius: 0px 25px 0px 0px;
-    background-color:;
+    background-color:rgba(255, 255, 255, 0);
 }
 /* queries */
 @media {
