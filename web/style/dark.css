@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC'); /* Alegreya Sans SC */
 
+html {
+ background-image: url(web/style/assets/jpgDarkNoise1.jpg);
+ text-align:center;
+}
 /*
 body {}
 */
