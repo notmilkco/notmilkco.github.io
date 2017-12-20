@@ -4,9 +4,6 @@ html {
  background-image: url(https://raw.githubusercontent.com/parkcitymedia/parkcitymedia.github.io/master/web/style/assets/jpgDarkNoise1.jpg);
  text-align:center;
 }
-/*
-body {}
-*/
 h1, h2, h3 {
  color:#ffffff;
  font-family:'Alegreya Sans SC', sans-serif;
@@ -31,7 +28,7 @@ a {
  transition: 0.5s;
  }
 a:hover {
- background-color:rgba(255, 255, 255, 255);
+ background-color:#FFFFFF;
  color: rgb(51, 51, 51);
 }
 /* classes */
@@ -41,9 +38,13 @@ a:hover {
     align-content:top;
     align-items:top;
 }
+.div-border {
+ border-style:solid;
+ border-width:2px;
+ 
 /* identifiers */
 #block {
-    display:inline;
+    width:70%;
     border-style:solid;
     border-width:2px;
     border-color:#ffffff;
