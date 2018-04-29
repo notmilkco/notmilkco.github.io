@@ -50,6 +50,10 @@ a:hover {
     border-color:#ffffff;
     padding:4px;
 }
+header, footer {
+    color: #fff;
+    font-family: 'Alegreya Sans SC';
+}
 /* queries */
 /* @media {
 } */
