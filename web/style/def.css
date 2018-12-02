@@ -16,6 +16,9 @@ html {
 	font-family:"Nunito", sans-serif;
 	font-style:normal;
 }
+.sig {
+	color:rgba(255, 255, 255, 150);
+}
 /* identifiers */
 #welcomediv {
 	border-style:solid;
@@ -23,5 +26,9 @@ html {
 	border-color:#505050;
 	border-radius:7px;
 	background-color:rgba(100, 100, 100, 150);
+}#main {
+	border-style:solid;
+	border-color:rgba(100, 100, 100, 150);
+	border-radius:2px 2px 7px 2px;
+	background-color:rgba(100, 100, 100, 150);
 }
-/* classes */
