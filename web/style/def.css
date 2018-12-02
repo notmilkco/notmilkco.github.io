@@ -9,7 +9,7 @@ html {
 }h1 {
 	color:#EFEFEF;
 	font-family:"Nunito", sans-serif;
-	font-style:bold, italic;
+	font-style:bold-italic;
 }p {
 	background-color:rgba(0, 0, 0, 0);
 	color:#fff;
@@ -29,6 +29,6 @@ html {
 }#main {
 	border-style:solid;
 	border-color:rgba(100, 100, 100, 150);
-	border-radius:2px 2px 7px 2px;
+	border-radius:2px 2px 15px 2px
 	background-color:rgba(100, 100, 100, 150);
 }
