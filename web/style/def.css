@@ -16,10 +16,10 @@ html {
 	font-family:"Nunito", sans-serif;
 	font-style:normal;
 }
-.sig {
-	color:rgba(255, 255, 255, 150);
-}
 /* identifiers */
+#sig {
+	color:rgba(255, 255, 255, 80);
+}
 #welcomediv {
 	border-style:solid;
 	border-width:2px;
