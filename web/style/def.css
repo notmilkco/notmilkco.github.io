@@ -6,7 +6,7 @@
 html {
 	background-image: url(https://cdn.discordapp.com/attachments/332952636997238785/521028447061934104/depositphotos_39637835-stock-photo-seamless-texture-of-watermelon.jpg);
 	background-repeat:repeat-y;
-	background-size:cover;
+	background-size:100% auto;
 	background-position:top;
 	background-attachment:fixed;
 	background-color:rgba(0, 0, 0, 0);
