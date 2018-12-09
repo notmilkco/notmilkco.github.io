@@ -39,7 +39,9 @@ div {
 	color:#c4f0ff;
 }
 #sig {
-	color:rgba(255, 255, 255, 0.8);
+	color:rgba(255, 255, 255, 0.5);
+	font-family:"Alegreya Sans SC", "Nuninto", serif;
+	font-style:oblique;
 }
 #welcomediv {
 	border-style:solid;
