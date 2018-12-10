@@ -1,5 +1,45 @@
 html{
+	background-image:url(https://cdn.discordapp.com/attachments/332952636997238785/521028447061934104/depositphotos_39637835-stock-photo-seamless-texture-of-watermelon.jpg);
+	background-size:100% auto;
+	background-repeat:repeat-y;
+	background-attachment:fixed;
+	background-color:#ddd;
 }
 body {
+}
+/* classes */
+.techfeedmain {
+	size:90%;
+	border-style:solid;
+	border-color:rgba(0, 0, 0, 0);
+	border-radius:10px;
+}
+.iframe-controls-container .iframe-controls-container--unified .iframe-controls-container--overlay .iframe-controls-container--melontech .iframe-controls-container--no-search .iframe-controls-container--stroked-buttons .iframe-controls-container--compact {
+	size:0px;
+}
+.iframe-controls-background {
+	width:0%;
+	height:0%;
+	background-position:bottom;
+	background-color:rgba(0, 0, 0, 0);
+	color:rgba(0, 0, 0, 0);
+}
+.iframe-controls-right {
+	size:0%;
+        background-color:rgba(0, 0, 0, 0);
+        color:rgba(0, 0, 0, 0);
+}
+.tmblr-iframe, .tmblr-iframe--unified-controls, .tmblr-iframe--loaded, .iframe-controls--desktop {
+        width:0%;
+	height:0%;
+	background-position:bottom;
+	background-color:rgba(0, 0, 0, 0);
+	color:rgba(0, 0, 0, 0);
+}
+.buttons-container {
+	size:10%
+}
+.nav-fixed {
+	size:0%;
 }
 /* used for the tech blog A https://melontech.tumblr.com/ */
