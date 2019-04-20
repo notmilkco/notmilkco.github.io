@@ -4,20 +4,17 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
 /* elements */
 html {
+	/*
 	background-image: url(https://cdn.discordapp.com/attachments/332952636997238785/521028447061934104/depositphotos_39637835-stock-photo-seamless-texture-of-watermelon.jpg);
+	*/
 	background-repeat:repeat-y;
 	background-size:100% auto;
 	background-position:top;
 	background-attachment:fixed;
-	background-color:rgba(0, 0, 0, 0);
+	background-color:#3f6b91;
 }
 body {
 	text-align:center;
-}
-h1, h2, h3, h4, h5, h6 {
-	color:#EFEFEF;
-	font-family:"Alegreya Sans SC", "Nunito", sans-serif;
-	font-style:bold-italic;
 }
 p {
 	background-color:rgba(0, 0, 0, 0);
@@ -31,43 +28,63 @@ a {
 	font-family:inherit;
 	font-style:oblique;
 }
+h1 {
+	background-color:transparent;
+	font-family:"Nunito", sans-serif;
+	color:#fff;
+}
 div {
 	background-color:rgba(0, 0, 0, 0);
 }
-/* identifiers */
-#melonblue {
+.melonblue {
 	color:#c4f0ff;
 }
-#sig {
+.sig {
 	color:rgba(255, 255, 255, 0.5);
 	font-family:"Alegreya Sans SC", "Nuninto", serif;
 	font-style:oblique;
 }
-#welcomediv {
+.welcomediv {
 	border-style:solid;
 	border-width:2px;
 	border-color:rgba(40, 40, 100, 0);
 	border-radius:7px;
 	background-color:rgba(40, 80, 100, 0.8);
-}#main {
+}
+.main {
 	border-style:solid;
 	border-color:rgba(40, 40, 100, 0);
 	border-radius:15px 15px 15px 15px;
 	background-color:rgba(40, 40, 80, 0.8);
+	padding:2%;
 }
-/*classes*/
 .soundcloud {
 	color:inherit;
 	background-color:inherit;
 	font-size:inherit;
 	cursor:pointer;
-	transition:background 0.4s;
+	transition:background, 0.4s;
 	-webkit-transition:background 0.4s;
-}.soundcloud:hover {
+}
+.soundcloud:hover {
 	color:fff;
 	border-style:solid;
 	border-color:rgba(0, 0, 0, 0);
 	border-radius:8px 8px 8px 8px;
 	background-color:#f50;
 }
-
+.tumblr {
+	color:inherit;
+	background-color:inherit;
+	font-size:inherit;
+	cursor:pointer;
+	transition:background border-radius 0.4s;
+	-webkit-transition:background 0.4s;
+}
+.tumblr:hover {
+	color:fff;
+	border-style:solid;
+	border-color:rgba(0, 0, 0, 0);
+	border-radius:8px 8px 8px 8px;
+	background-color:#001935;
+}
