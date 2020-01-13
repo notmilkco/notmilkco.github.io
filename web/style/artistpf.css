@@ -1,0 +1,12 @@
+/* root variable definitions */
+:root {
+    --accentColor: #3fd17c;
+}
+
+html {}
+
+body {
+    background-color:#333;
+    color:#fff;
+    font-family:sans-serif;
+}
