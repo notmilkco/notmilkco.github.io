@@ -1,0 +1,21 @@
+/* expirimenting with dark theme */
+/* root var defs */
+:root {
+  --accentColor:#00FFCC;
+  --fontColor:#fff;
+}
+
+/* responsive design */
+body {
+  background-color:#303030;
+  color:var(--fontColor);
+  padding:20px;
+}
+.monospace{
+  font-family:monospace;
+  color:var(--accentColor);
+}
+.notice {
+  border-radius:;
+  border-color:var(--accentColor);
+}
