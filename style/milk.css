@@ -11,6 +11,12 @@ body {
   color:var(--fontColor);
   padding:20px;
 }
+h1 {
+  font-family:sans-serif;
+  font-weight:bold;
+  font-style:italic;
+  color:var(--fontColor);
+}
 .monospace{
   font-family:monospace;
   color:var(--accentColor);
