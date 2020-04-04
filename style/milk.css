@@ -52,7 +52,7 @@ p {
 	background-color:var(--secondaryBackgroundColor);
 	padding:2em;
 }
-i.code-comment{
+i.code-comment {
 	font-family:monospace;
 	font-size:inherit;
 	color:var(--secondaryFontColor);
