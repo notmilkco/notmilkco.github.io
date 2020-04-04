@@ -23,6 +23,21 @@ h1 {
 	font-style:italic;
 	color:var(--fontColor);
 }
+a {
+	color:var(--fontColor);
+	text-decoration:none;
+	font-family:sans-serif;
+	font-weight:100;
+	font-style:italic;
+	transition:font-weight 0.8s, color 0.8s;
+}
+a:hover {
+	color:var(--accentColor);
+	text-decoration:none;
+	font-family:sans-serif;
+	font-weight:300;
+	font-style:italic;
+}
 p {
 	font-family:sans-serif;
 	color:var(--secondaryFontColor);
