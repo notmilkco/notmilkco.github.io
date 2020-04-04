@@ -1,27 +1,30 @@
 /* expirimenting with dark theme */
 /* root var defs */
 :root {
-  --accentColor:#00FFCC;
-  --fontColor:#fff;
+	/* variable color defs */
+	--backgroundColor:;
+	--accentColor:#00FFCC;
+	--fontColor:#fff;
+	--secondaryFontColor:;
 }
 
 /* responsive design */
 body {
-  background-color:#303030;
-  color:var(--fontColor);
-  padding:20px;
+	background-color:#303030;
+	color:var(--fontColor);
+	padding:20px;
 }
 h1 {
-  font-family:sans-serif;
-  font-weight:bold;
-  font-style:italic;
-  color:var(--fontColor);
+	font-family:sans-serif;
+	font-weight:bold;
+	font-style:italic;
+	color:var(--fontColor);
 }
-.monospace{
-  font-family:monospace;
-  color:var(--accentColor);
+.monospace {
+	font-family:monospace;
+	color:var(--accentColor);
 }
 .notice {
-  border-radius:;
-  border-color:var(--accentColor);
+	border-radius:;
+	border-color:var(--accentColor);
 }
