@@ -23,6 +23,11 @@ h1 {
 	font-style:italic;
 	color:var(--fontColor);
 }
+h2 {
+	font-family:sans-serif;
+	font-style:italic;
+	color:var(--fontColor);
+}
 a {
 	color:var(--fontColor);
 	text-decoration:none;
