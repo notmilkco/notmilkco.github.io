@@ -2,15 +2,18 @@
 /* root var defs */
 :root {
 	/* variable color defs */
-	--backgroundColor:;
+	--backgroundColor:#303030;
+	--secondaryBackgroundColor:#202020;
+	--teritaryBackgroundColor:#1c1c1c;
 	--accentColor:#00FFCC;
 	--fontColor:#fff;
-	--secondaryFontColor:;
+	--secondaryFontColor:#a0a0a0;
 }
+/* imports */
 
 /* responsive design */
 body {
-	background-color:#303030;
+	background-color:var(--backgroundColor);
 	color:var(--fontColor);
 	padding:20px;
 }
@@ -20,9 +23,30 @@ h1 {
 	font-style:italic;
 	color:var(--fontColor);
 }
+p {
+	font-family:sans-serif;
+	font-size:133%;
+	color:var(--secondaryFontColor);
+	border-style:solid;
+	border-top:none;
+	border-bottom:3px;
+	border-right:none;
+	border-left:3px;
+	border-radius:1em;
+}
 .monospace {
 	font-family:monospace;
+	line-height:2em;
 	color:var(--accentColor);
+	background-color:var(--secondaryBackgroundColor);
+	padding:2em;
+}
+i.code-comment{
+	font-family:monospace;
+	color:var(--secondaryFontColor);
+	padding:5px;
+	border-radius:1em;
+	background-color:var(--teritaryBackgroundColor);
 }
 .notice {
 	border-radius:;
