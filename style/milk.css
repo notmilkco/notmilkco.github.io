@@ -66,6 +66,6 @@ i.code-comment {
 	background-color:var(--teritaryBackgroundColor);
 }
 .notice {
-	border-radius:;
+	border-radius:25px;
 	border-color:var(--accentColor);
 }
