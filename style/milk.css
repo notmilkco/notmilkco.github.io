@@ -65,6 +65,9 @@ i.code-comment {
 	border-radius:1em;
 	background-color:var(--teritaryBackgroundColor);
 }
+.sublist-header {
+	color:var(--accentColor);
+}
 .notice {
 	border-radius:25px;
 	border-color:var(--accentColor);
